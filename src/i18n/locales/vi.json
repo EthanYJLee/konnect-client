@@ -1,0 +1,355 @@
+{
+  "welcome": "Chào mừng đến với Konnect",
+  "welcomeMessage": "Hãy hỏi tôi bất cứ điều gì về cuộc sống ở Hàn Quốc!",
+  "nav": {
+    "home": "Trang chủ",
+    "faq": "Câu hỏi thường gặp",
+    "history": "Lịch sử câu hỏi",
+    "curation": "Tuyển chọn",
+    "settings": "Cài đặt",
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "menu": "Menu",
+    "logout": "Đăng xuất",
+    "chat": "Trò chuyện",
+    "userProfile": "Thông tin người dùng"
+  },
+  "home": {
+    "hero": {
+      "title": "Hành trình Hàn Quốc\ndễ dàng và đặc biệt hơn",
+      "subtitle": "Lên kế hoạch cho chuyến đi khó quên đến Hàn Quốc với trợ lý du lịch AI được điều chỉnh theo phong cách du lịch của bạn.",
+      "button": "Bắt đầu lập kế hoạch"
+    },
+    "demo": {
+      "categories": {
+        "attractions": "Điểm du lịch",
+        "restaurants": "Nhà hàng",
+        "cultural": "Văn hóa"
+      },
+      "generateButton": "Tạo lịch trình"
+    },
+    "imagePlaceholder": "Hình ảnh phong cảnh Hàn Quốc",
+    "features": {
+      "title": "Tính năng chính của Konnect",
+      "subtitle": "Chúng tôi cung cấp nhiều tính năng để nâng cao trải nghiệm du lịch Hàn Quốc của bạn bằng công nghệ dựa trên AI.",
+      "learnMore": "Tìm hiểu thêm",
+      "itinerary": {
+        "title": "Kế hoạch du lịch cá nhân hóa",
+        "description": "Dễ dàng tạo lịch trình du lịch cá nhân dựa trên sở thích và lịch trình của bạn. AI của chúng tôi gợi ý các tuyến đường tối ưu và địa điểm được đề xuất."
+      },
+      "localInsights": {
+        "title": "Khuyến nghị từ người địa phương",
+        "description": "Khám phá những địa điểm ẩn và mẹo từ người địa phương mà khách du lịch ít biết đến. Trải nghiệm văn hóa Hàn Quốc đích thực."
+      },
+      "translation": {
+        "title": "Hỗ trợ ngôn ngữ",
+        "description": "Du lịch mà không lo lắng về rào cản ngôn ngữ. Chúng tôi giúp dịch thực đơn, đàm thoại cơ bản và hiểu biển chỉ dẫn."
+      },
+      "foodGuide": {
+        "title": "Hướng dẫn ẩm thực",
+        "description": "Khám phá ẩm thực Hàn Quốc đa dạng và nhà hàng địa phương. Chúng tôi giới thiệu những nơi phù hợp với chế độ ăn uống và sở thích của bạn."
+      },
+      "chatbot": {
+        "title": "Trợ lý Du lịch AI",
+        "description": "Nhận câu trả lời ngay lập tức cho các câu hỏi du lịch của bạn và các đề xuất cá nhân hóa từ trợ lý du lịch AI của chúng tôi. Hoạt động 24/7 để giúp lập kế hoạch chuyến đi của bạn."
+      }
+    },
+    "howItWorks": {
+      "title": "Cách thức hoạt động",
+      "subtitle": "Lên kế hoạch cho chuyến đi hoàn hảo chỉ với 3 bước đơn giản",
+      "step1": {
+        "title": "Chọn điểm đến",
+        "description": "Chọn thành phố khởi hành và đến của bạn"
+      },
+      "step2": {
+        "title": "Thêm địa điểm phải ghé thăm",
+        "description": "Cho chúng tôi biết những nơi bạn không muốn bỏ lỡ"
+      },
+      "step3": {
+        "title": "Tạo lịch trình",
+        "description": "Nhận kế hoạch chuyến đi đầy đủ với bản đồ"
+      }
+    },
+    "resultPreview": {
+      "title": "Xem kế hoạch du lịch của bạn",
+      "subtitle": "Khám phá lịch trình hàng ngày chi tiết với bản đồ tương tác",
+      "features": {
+        "title": "Tính năng lịch trình thông minh",
+        "daily": "Kế hoạch được tổ chức theo từng ngày",
+        "map": "Bản đồ tương tác cho mỗi ngày",
+        "efficient": "Tuyến đường di chuyển tối ưu"
+      },
+      "tryNow": "Tạo lịch trình của bạn",
+      "demoTitle": "Lịch trình du lịch của bạn"
+    },
+    "cta": {
+      "title": "Sẵn sàng lên kế hoạch cho chuyến phiêu lưu Hàn Quốc hoàn hảo của bạn?",
+      "subtitle": "Tạo lịch trình du lịch tùy chỉnh của bạn trong vài phút",
+      "button": "Bắt đầu lập kế hoạch ngay"
+    }
+  },
+  "chat": {
+    "placeholder": "Nhập câu hỏi của bạn ở đây...",
+    "send": "Gửi",
+    "thinking": "Đang suy nghĩ",
+    "title": "Trò chuyện với Trợ lý Du lịch",
+    "subtitle": "Hãy thoải mái đặt câu hỏi về chuyến du lịch đến Hàn Quốc hoặc yêu cầu hỗ trợ.",
+    "remainingRequests": "Yêu cầu còn lại: {{count}}/{{total}}",
+    "rateLimitExceeded": "Đã đạt giới hạn yêu cầu trò chuyện. Vui lòng thử lại sau {{minutes}} phút."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "categories": {
+      "transportation": "Giao thông",
+      "banking": "Ngân hàng",
+      "telecom": "Viễn thông",
+      "healthcare": "Y tế",
+      "visa": "Thị thực & Nhập cư",
+      "housing": "Nhà ở"
+    },
+    "transportation": {
+      "q1": "Làm thế nào để sử dụng phương tiện giao thông công cộng ở Hàn Quốc?",
+      "a1": "Bạn có thể sử dụng thẻ T-money cho xe buýt và tàu điện ngầm. Sử dụng ứng dụng KakaoMap hoặc NaverMap để điều hướng.",
+      "q2": "Làm thế nào để mua thẻ T-money?",
+      "a2": "Bạn có thể mua thẻ T-money tại cửa hàng tiện lợi, ga tàu điện ngầm hoặc trực tuyến. Nạp tiền có thể thực hiện tại bất kỳ cửa hàng tiện lợi hoặc ga tàu điện ngầm nào.",
+      "q3": "Ứng dụng giao thông nào được sử dụng phổ biến ở Hàn Quốc?",
+      "a3": "KakaoMap và NaverMap là ứng dụng điều hướng phổ biến nhất. Taxi thường sử dụng KakaoTaxi."
+    },
+    "banking": {
+      "q1": "Làm thế nào để mở tài khoản ngân hàng ở Hàn Quốc?",
+      "a1": "Đến chi nhánh ngân hàng với thẻ đăng ký người nước ngoài (ARC) và hộ chiếu. Một số ngân hàng có thể yêu cầu thêm tài liệu.",
+      "q2": "Ngân hàng nào thân thiện với người nước ngoài?",
+      "a2": "KEB Hana Bank, Shinhan Bank và Woori Bank cung cấp dịch vụ tiếng Anh và phổ biến với người nước ngoài.",
+      "q3": "Làm thế nào để chuyển tiền quốc tế?",
+      "a3": "Bạn có thể sử dụng ngân hàng trực tuyến hoặc đến chi nhánh. Một số ngân hàng cung cấp dịch vụ chuyển tiền quốc tế đặc biệt cho người nước ngoài."
+    },
+    "telecom": {
+      "q1": "Làm thế nào để có số điện thoại Hàn Quốc?",
+      "a1": "Đến nhà cung cấp viễn thông (SKT, KT, hoặc LG U+) với ARC và hộ chiếu. Bạn có thể chọn giữa gói trả trước và trả sau.",
+      "q2": "Nhà cung cấp viễn thông chính ở Hàn Quốc là gì?",
+      "a2": "Ba nhà cung cấp lớn là SK Telecom (SKT), KT và LG U+. Tất cả đều cung cấp các gói dịch vụ đa dạng cho người nước ngoài.",
+      "q3": "Làm thế nào để sử dụng internet di động?",
+      "a3": "Bạn có thể mua SIM card có gói dữ liệu từ nhà cung cấp viễn thông hoặc mua thiết bị WiFi di động."
+    },
+    "healthcare": {
+      "q1": "Hệ thống y tế Hàn Quốc hoạt động như thế nào?",
+      "a1": "Hàn Quốc có hệ thống Bảo hiểm Y tế Quốc gia. Người nước ngoài có ARC có thể tham gia sau 6 tháng cư trú.",
+      "q2": "Làm thế nào để tìm bác sĩ nói tiếng Anh?",
+      "a2": "Các bệnh viện lớn có phòng khám quốc tế. Bạn cũng có thể sử dụng đường dây nóng 1339 để tư vấn y tế bằng tiếng Anh.",
+      "q3": "Phải làm gì trong trường hợp khẩn cấp?",
+      "a3": "Gọi 119 trong trường hợp khẩn cấp. Có thể tư vấn bằng tiếng Anh. Luôn mang theo thẻ bảo hiểm và tài liệu y tế quan trọng."
+    },
+    "visa": {
+      "q1": "Làm thế nào để gia hạn thị thực?",
+      "a1": "Đến văn phòng xuất nhập cảnh với các tài liệu cần thiết trước khi thị thực hiện tại hết hạn. Quy trình khác nhau tùy theo loại thị thực.",
+      "q2": "Cần những tài liệu gì để gia hạn thị thực?",
+      "a2": "Thông thường cần hộ chiếu, ARC, đơn đăng ký, giấy chứng nhận cư trú và tài liệu cụ thể cho loại thị thực của bạn.",
+      "q3": "Làm thế nào để thay đổi loại thị thực?",
+      "a3": "Nộp đơn đăng ký tại văn phòng xuất nhập cảnh với các tài liệu cần thiết. Một số thay đổi có thể yêu cầu rời khỏi và nhập cảnh lại Hàn Quốc."
+    },
+    "housing": {
+      "q1": "Có những loại nhà ở nào ở Hàn Quốc?",
+      "a1": "Các lựa chọn phổ biến bao gồm officetel, căn hộ, biệt thự và goshiwon. Mỗi loại có các yêu cầu về hợp đồng và tiền đặt cọc khác nhau.",
+      "q2": "Jeonse và wolse là gì?",
+      "a2": "Jeonse là đặt cọc lớn không có tiền thuê hàng tháng, trong khi wolse là đặt cọc nhỏ với tiền thuê hàng tháng. Cả hai đều cần hợp đồng.",
+      "q3": "Làm thế nào để tìm nhà ở Hàn Quốc?",
+      "a3": "Bạn có thể sử dụng ứng dụng bất động sản (직방, 다방), đến đại lý bất động sản hoặc kiểm tra cộng đồng người nước ngoài."
+    }
+  },
+  "history": {
+    "title": "Lịch sử của Tôi",
+    "subtitle": "Xem và quản lý các cuộc trò chuyện đã lưu và lịch trình du lịch đã tạo.",
+    "conversations": "Cuộc trò chuyện đã Lưu",
+    "itineraries": "Lịch trình đã Lưu",
+    "allCategories": "Tất cả Danh mục",
+    "empty": "Chưa có cuộc trò chuyện nào được lưu.",
+    "date": "Ngày",
+    "spots": "Số Điểm đến",
+    "regions": "Khu vực",
+    "actions": "Thao tác",
+    "view": "Xem",
+    "delete": "Xóa",
+    "noItineraries": "Chưa có lịch trình nào được lưu.",
+    "question": "Câu hỏi",
+    "answer": "Trả lời",
+    "copy": "Sao chép trả lời",
+    "report": "Báo lỗi",
+    "searchPlaceholder": "Tìm kiếm lịch sử...",
+    "savedOn": "Đã lưu vào",
+    "viewItinerary": "Xem chi tiết",
+    "deleteItinerary": "Xóa",
+    "viewDetails": "Xem chi tiết"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "theme": "Giao diện",
+    "notifications": "Thông báo",
+    "enableNotifications": "Bật thông báo"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối"
+  },
+  "toast": {
+    "info": "Thông báo",
+    "success": "Thành công",
+    "warning": "Cảnh báo",
+    "error": "Lỗi",
+    "loginSuccess": "Đăng nhập thành công",
+    "logoutSuccess": "Đã đăng xuất thành công"
+  },
+  "footer": {
+    "about": "Giới thiệu",
+    "description": "Konnect cung cấp thông tin và trả lời câu hỏi về cuộc sống hàng ngày cho người nước ngoài đang tham quan/sinh sống tại Hàn Quốc.",
+    "links": "Liên kết nhanh",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "contact": "Liên hệ",
+    "support": "Hỗ trợ",
+    "help": "Trung tâm trợ giúp",
+    "feedback": "Gửi phản hồi",
+    "report": "Báo cáo vấn đề",
+    "rights": "Đã đăng ký bản quyền"
+  },
+  "login": {
+    "google": "Đăng nhập bằng Google",
+    "apple": "Đăng nhập bằng Apple",
+    "or": "or",
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "findId": "Tìm ID",
+    "findPw": "Tìm mật khẩu",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "title": "Đăng nhập",
+    "subtitle": "Nhập thông tin đăng nhập để truy cập tài khoản của bạn."
+  },
+  "signup": {
+    "email": "Email",
+    "customDomain": "Nhập thủ công",
+    "password": "Mật khẩu",
+    "name": "Tên",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "checkDuplicate": "Kiểm tra",
+    "title": "Đăng ký",
+    "subtitle": "Tạo tài khoản mới để sử dụng dịch vụ của chúng tôi.",
+    "modal": {
+      "emailTitle": "Email",
+      "emailInputError": "Vui lòng nhập email hợp lệ.",
+      "emailDuplicateTitle": "Email trùng lặp",
+      "emailDuplicateBody": "Email này đã tồn tại.",
+      "emailAvailableTitle": "Có thể sử dụng",
+      "emailAvailableBody": "Email này có thể sử dụng.",
+      "emailFormatErrorTitle": "Lỗi định dạng email",
+      "emailFormatErrorBody": "Định dạng email không hợp lệ.",
+      "emailCheckErrorTitle": "Lỗi",
+      "emailCheckErrorBody": "Đã xảy ra lỗi khi kiểm tra email.",
+      "emailInputTitle": "Email",
+      "emailInputBody": "Vui lòng nhập email.",
+      "emailCheckTitle": "Kiểm tra trùng lặp email",
+      "emailCheckBody": "Vui lòng kiểm tra trùng lặp email trước.",
+      "nameTitle": "Tên",
+      "nameBody": "Vui lòng nhập tên.",
+      "passwordTitle": "Mật khẩu",
+      "passwordBody": "Vui lòng nhập mật khẩu.",
+      "confirmPasswordTitle": "Xác nhận mật khẩu",
+      "confirmPasswordBody": "Vui lòng xác nhận mật khẩu.",
+      "passwordMismatchTitle": "Mật khẩu không khớp",
+      "passwordMismatchBody": "Mật khẩu không trùng khớp.",
+      "signupSuccessTitle": "Đăng ký thành công",
+      "signupSuccessBody": "Tài khoản của bạn đã được tạo thành công. Đang chuyển hướng đến trang đăng nhập."
+    }
+  },
+  "alertModal": {
+    "login": "Đăng nhập",
+    "pleaseLogin": "Vui lòng đăng nhập để sử dụng dịch vụ này.",
+    "deleteThread": "Xóa cuộc trò chuyện",
+    "confirmDeleteThread": "Bạn có chắc chắn muốn xóa cuộc trò chuyện này không?",
+    "confirmDeleteItinerary": "Bạn có chắc chắn muốn xóa lịch trình du lịch này không?",
+    "delete": "Xóa",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận"
+  },
+  "curation": {
+    "language": "vi",
+    "title": "Tạo Lịch Trình",
+    "subtitle": "Nhập những địa điểm bạn muốn đến và nhận lịch trình đầy đủ!",
+    "maxSpotsReached": "Bạn chỉ có thể thêm tối đa {{max}} địa điểm.",
+    "resetSpot": "Đặt lại tất cả",
+    "addSpot": "Thêm địa điểm",
+    "generateItinerary": "Tạo lịch trình",
+    "spotsReset": "Tất cả các địa điểm đã được đặt lại.",
+    "allSpotsEmpty": "Tất cả các địa điểm đều trống. Đang tự động đặt lại.",
+    "spotPlaceholder": "Nhập địa điểm (ví dụ: quán cà phê, điểm tham quan, v.v.)",
+    "clearInput": "Xóa nhập liệu",
+    "selectCategory": "Chọn Danh Mục Du Lịch",
+    "categoryDescription": "Bạn đang lên kế hoạch cho loại chuyến đi nào?",
+    "categoryMultipleDescription": "Bạn quan tâm đến những hoạt động nào? (Chọn tất cả nếu phù hợp)",
+    "changeCategory": "Thay đổi",
+    "confirmCategories": "Tiếp tục",
+    "selectAtLeastOne": "Vui lòng chọn ít nhất một danh mục",
+    "departureCity": "Thành phố khởi hành",
+    "arrivalCity": "Thành phố đến",
+    "selectCity": "Chọn thành phố",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "selectStartDate": "Chọn ngày bắt đầu",
+    "selectEndDate": "Chọn ngày kết thúc",
+    "removeSpot": "Xóa địa điểm",
+    "itineraryResults": "Lịch Trình Du Lịch Của Bạn",
+    "itineraryGenerated": "Lịch trình của bạn đã được tạo thành công!",
+    "viewItinerary": "Xem Lịch Trình Của Bạn",
+    "freeDay": "Ngày tự do - Không có hoạt động nào được lên kế hoạch",
+    "mapView": "Xem Bản Đồ",
+    "mapComingSoon": "Xem bản đồ sắp ra mắt",
+    "loadingMap": "Đang tải bản đồ...",
+    "generationError": "Không thể tạo lịch trình. Vui lòng thử lại.",
+    "save": "Lưu",
+    "saved": "Đã lưu",
+    "saveSuccess": "Lịch trình đã được lưu thành công!",
+    "saveError": "Không thể lưu lịch trình. Vui lòng thử lại.",
+    "validation": {
+      "startDateRequired": "Vui lòng chọn ngày bắt đầu",
+      "endDateRequired": "Vui lòng chọn ngày kết thúc",
+      "departureCityRequired": "Vui lòng chọn thành phố khởi hành",
+      "arrivalCityRequired": "Vui lòng chọn thành phố đến",
+      "noSpotsEntered": "Vui lòng nhập ít nhất một địa điểm"
+    },
+    "categories": {
+      "attraction": "Điểm Du Lịch",
+      "culture": "Cơ Sở Văn Hóa",
+      "festival": "Lễ Hội & Sự Kiện",
+      "tourCourse": "Tuyến Du Lịch",
+      "leisure": "Thể Thao Giải Trí",
+      "accommodation": "Chỗ Ở",
+      "shopping": "Mua Sắm",
+      "food": "Nhà Hàng"
+    },
+    "remainingItineraries": "Lịch trình còn lại: {{count}}/{{total}}",
+    "rateLimitExceeded": "Đã đạt giới hạn tạo lịch trình. Vui lòng thử lại sau {{minutes}} phút.",
+    "searchLimitReached": "Đã đạt giới hạn tìm kiếm",
+    "searchLimitMessage": "Vui lòng thử lại sau {{minutes}} phút",
+    "remainingSearches": "Tìm kiếm còn lại: {{count}}/{{total}}"
+  },
+  "session": {
+    "expireTitle": "Session Expiring Soon",
+    "expireMessage": "Your session will expire soon. Please extend to continue using the service.",
+    "remainingTime": "Time remaining: ",
+    "extend": "Extend Session (1 hour)",
+    "logout": "Logout",
+    "extendError": "Failed to connect to server. Please try again or log out and log back in.",
+    "retry": "Retry",
+    "orLogout": "or log out and sign in again"
+  },
+  "travelGuides": {
+    "title": "Hướng Dẫn Du Lịch",
+    "subtitle": "Khám phá những điều tuyệt vời nhất của Hàn Quốc với hướng dẫn du lịch được tuyển chọn của chúng tôi",
+    "comingSoon": "Sắp Ra Mắt",
+    "preparingMessage": "Chúng tôi đang chuẩn bị hướng dẫn du lịch. Vui lòng quay lại sau.",
+    "searchPlaceholder": "Tìm kiếm hướng dẫn, điểm đến hoặc hoạt động...",
+    "allRegions": "Tất Cả Khu Vực",
+    "readMore": "Đọc Thêm",
+    "noResults": "Không tìm thấy hướng dẫn phù hợp với tiêu chí của bạn. Vui lòng thử các từ khóa tìm kiếm khác."
+  }
+} 

@@ -1,0 +1,355 @@
+{
+  "welcome": "欢迎使用 Konnect",
+  "welcomeMessage": "关于韩国生活，您可以询问任何问题！",
+  "nav": {
+    "home": "首页",
+    "faq": "常见问题",
+    "history": "历史记录",
+    "curation": "策展",
+    "settings": "设置",
+    "login": "登录",
+    "signup": "注册",
+    "menu": "菜单",
+    "logout": "登出",
+    "chat": "聊天",
+    "userProfile": "用户信息"
+  },
+  "home": {
+    "hero": {
+      "title": "让您的韩国之旅\n更轻松、更特别",
+      "subtitle": "通过我们基于AI的旅行助手，根据您的旅行风格，规划一次难忘的韩国之旅。",
+      "button": "开始规划"
+    },
+    "demo": {
+      "categories": {
+        "attractions": "景点",
+        "restaurants": "餐厅",
+        "cultural": "文化场所"
+      },
+      "generateButton": "生成行程"
+    },
+    "imagePlaceholder": "韩国风景图片",
+    "features": {
+      "title": "Konnect的主要功能",
+      "subtitle": "我们提供各种基于AI技术的功能，以增强您的韩国旅行体验。",
+      "learnMore": "了解更多",
+      "itinerary": {
+        "title": "个性化旅行计划",
+        "description": "根据您的偏好和日程轻松创建个性化旅行行程。我们的AI会建议最佳路线和推荐地点。"
+      },
+      "localInsights": {
+        "title": "本地人推荐",
+        "description": "发现游客不太了解的当地隐藏景点和贴士。体验真正的韩国文化。"
+      },
+      "translation": {
+        "title": "语言支持服务",
+        "description": "无需担心语言障碍即可旅行。我们提供菜单翻译、基本对话和标志解释等帮助。"
+      },
+      "foodGuide": {
+        "title": "美食指南",
+        "description": "探索韩国多样化的美食和当地餐厅。我们会推荐符合您饮食限制和偏好的餐厅。"
+      },
+      "chatbot": {
+        "title": "AI旅行助手",
+        "description": "从我们的AI旅行助手获取旅行问题的即时答案和个性化推荐。全天候为您的旅行计划提供帮助。"
+      }
+    },
+    "howItWorks": {
+      "title": "使用方法",
+      "subtitle": "只需3个简单步骤即可规划完美旅行",
+      "step1": {
+        "title": "选择目的地",
+        "description": "选择您的出发城市和到达城市"
+      },
+      "step2": {
+        "title": "添加必访景点",
+        "description": "告诉我们您不想错过的地方"
+      },
+      "step3": {
+        "title": "生成行程",
+        "description": "获取带有地图的完整旅行计划"
+      }
+    },
+    "resultPreview": {
+      "title": "查看您的旅行计划",
+      "subtitle": "探索带有交互式地图的详细每日行程",
+      "features": {
+        "title": "智能行程功能",
+        "daily": "按天组织的计划",
+        "map": "每天的交互式地图",
+        "efficient": "优化的旅行路线"
+      },
+      "tryNow": "创建您的行程",
+      "demoTitle": "您的旅行行程"
+    },
+    "cta": {
+      "title": "准备好规划您完美的韩国冒险之旅了吗？",
+      "subtitle": "几分钟内创建您的定制旅行行程",
+      "button": "立即开始规划"
+    }
+  },
+  "chat": {
+    "placeholder": "请在此输入问题...",
+    "send": "发送",
+    "thinking": "思考中",
+    "title": "与旅行助手聊天",
+    "subtitle": "随时提问关于韩国旅行的问题或寻求帮助。",
+    "remainingRequests": "剩余请求: {{count}}/{{total}}",
+    "rateLimitExceeded": "聊天请求已达上限。请在{{minutes}}分钟后再试。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "categories": {
+      "transportation": "交通",
+      "banking": "银行",
+      "telecom": "通信",
+      "healthcare": "医疗",
+      "visa": "签证与移民",
+      "housing": "住房"
+    },
+    "transportation": {
+      "q1": "如何在韩国使用公共交通？",
+      "a1": "可以使用T-money卡乘坐公交车和地铁。导航请使用KakaoMap或NaverMap。",
+      "q2": "如何购买T-money卡？",
+      "a2": "可以在便利店、地铁站或网上购买T-money卡。充值可以在任何便利店和地铁站进行。",
+      "q3": "韩国主要使用哪些交通应用？",
+      "a3": "KakaoMap和NaverMap是最受欢迎的导航应用。出租车主要使用KakaoTaxi。"
+    },
+    "banking": {
+      "q1": "如何在韩国开设银行账户？",
+      "a1": "携带外国人登录证和护照前往银行分行。部分银行可能需要额外文件。",
+      "q2": "哪些银行对外国人友好？",
+      "a2": "KEB韩亚银行、新韩银行和友利银行提供英语服务，在外国人中很受欢迎。",
+      "q3": "如何进行国际汇款？",
+      "a3": "可以通过网上银行或前往分行进行汇款。部分银行提供针对外国人的特殊国际汇款服务。"
+    },
+    "telecom": {
+      "q1": "如何获得韩国电话号码？",
+      "a1": "携带外国人登录证和护照前往通信公司（SKT、KT、LG U+）。可以选择预付费和后付费套餐。",
+      "q2": "韩国的主要通信公司有哪些？",
+      "a2": "SK电信（SKT）、KT和LG U+是三大通信公司。它们都提供针对外国人的各种套餐。",
+      "q3": "如何使用移动互联网？",
+      "a3": "可以从通信公司购买包含数据套餐的SIM卡，或购买便携式WiFi设备。"
+    },
+    "healthcare": {
+      "q1": "韩国的医疗系统如何运作？",
+      "a1": "韩国实行国民健康保险制度。持有外国人登录证的外国人可以在居住6个月后加入。",
+      "q2": "如何找到会说英语的医生？",
+      "a2": "大型医院设有国际诊疗中心。也可以使用1339热线进行英语医疗咨询。",
+      "q3": "遇到紧急情况该怎么办？",
+      "a3": "紧急情况请拨打119。可以用英语咨询。请随身携带保险卡和重要医疗文件。"
+    },
+    "visa": {
+      "q1": "如何延长签证？",
+      "a1": "在当前签证到期前，携带所需文件前往出入境管理事务所。程序因签证类型而异。",
+      "q2": "签证延期需要哪些文件？",
+      "a2": "通常需要护照、外国人登录证、申请表、居住证明以及签证类型特定的文件。",
+      "q3": "如何更改签证类型？",
+      "a3": "携带所需文件向出入境管理事务所提交申请。部分更改可能需要离开韩国后重新入境。"
+    },
+    "housing": {
+      "q1": "韩国有哪些住房类型？",
+      "a1": "常见的有商住两用房、公寓、别墅和考试院。每种类型的合同形式和保证金要求都不同。",
+      "q2": "什么是全租和月租？",
+      "a2": "全租是支付大额保证金，无需月租的居住方式；月租是支付小额保证金和月租的方式。两者都需要签订合同。",
+      "q3": "如何在韩国寻找住房？",
+      "a3": "可以使用房地产应用（직방、다방），访问房地产中介，或查看外国人社区。"
+    }
+  },
+  "history": {
+    "title": "我的历史记录",
+    "subtitle": "查看和管理您保存的对话和生成的旅行行程。",
+    "conversations": "已保存的对话",
+    "itineraries": "已保存的行程",
+    "allCategories": "所有类别",
+    "empty": "暂无保存的对话。",
+    "date": "日期",
+    "spots": "景点数量",
+    "regions": "地区",
+    "actions": "操作",
+    "view": "查看",
+    "delete": "删除",
+    "noItineraries": "暂无保存的行程。",
+    "question": "问题",
+    "answer": "回答",
+    "copy": "复制回答",
+    "report": "报告错误",
+    "searchPlaceholder": "搜索历史记录...",
+    "savedOn": "保存于",
+    "viewItinerary": "查看详情",
+    "deleteItinerary": "删除",
+    "viewDetails": "查看详情"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "theme": "主题",
+    "notifications": "通知",
+    "enableNotifications": "启用通知"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "toast": {
+    "info": "通知",
+    "success": "成功",
+    "warning": "警告",
+    "error": "错误",
+    "loginSuccess": "登录成功",
+    "logoutSuccess": "已成功登出"
+  },
+  "footer": {
+    "about": "关于",
+    "description": "Konnect为访问/居住在韩国的外国人提供日常生活问题和信息。",
+    "links": "快速链接",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们",
+    "support": "支持",
+    "help": "帮助中心",
+    "feedback": "发送反馈",
+    "report": "报告问题",
+    "rights": "保留所有权利"
+  },
+  "login": {
+    "google": "使用谷歌账号登录",
+    "apple": "使用苹果账号登录",
+    "or": "or",
+    "login": "登录",
+    "signup": "注册",
+    "findId": "找回ID",
+    "findPw": "找回密码",
+    "email": "邮箱",
+    "password": "密码",
+    "title": "登录",
+    "subtitle": "请输入您的凭据以访问您的账户。"
+  },
+  "signup": {
+    "email": "邮箱",
+    "customDomain": "自定义输入",
+    "password": "密码",
+    "name": "姓名",
+    "confirmPassword": "确认密码",
+    "checkDuplicate": "查重",
+    "title": "注册",
+    "subtitle": "创建新账户以使用我们的服务。",
+    "modal": {
+      "emailTitle": "邮箱",
+      "emailInputError": "请输入有效的邮箱。",
+      "emailDuplicateTitle": "邮箱重复",
+      "emailDuplicateBody": "该邮箱已存在。",
+      "emailAvailableTitle": "可用",
+      "emailAvailableBody": "该邮箱可以使用。",
+      "emailFormatErrorTitle": "邮箱格式错误",
+      "emailFormatErrorBody": "邮箱格式不正确。",
+      "emailCheckErrorTitle": "错误",
+      "emailCheckErrorBody": "邮箱检查时发生错误。",
+      "emailInputTitle": "邮箱",
+      "emailInputBody": "请输入邮箱。",
+      "emailCheckTitle": "邮箱查重",
+      "emailCheckBody": "请先进行邮箱查重。",
+      "nameTitle": "姓名",
+      "nameBody": "请输入姓名。",
+      "passwordTitle": "密码",
+      "passwordBody": "请输入密码。",
+      "confirmPasswordTitle": "确认密码",
+      "confirmPasswordBody": "请确认密码。",
+      "passwordMismatchTitle": "密码不匹配",
+      "passwordMismatchBody": "密码不一致。",
+      "signupSuccessTitle": "注册成功",
+      "signupSuccessBody": "您的账户已成功创建。正在重定向到登录页面。"
+    }
+  },
+  "alertModal": {
+    "login": "登录",
+    "pleaseLogin": "请登录以使用此服务。",
+    "deleteThread": "删除对话",
+    "confirmDeleteThread": "确定要删除这个对话吗？",
+    "confirmDeleteItinerary": "确定要删除这个旅行行程吗？",
+    "delete": "删除",
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "curation": {
+    "language": "zh",
+    "title": "旅行定制",
+    "subtitle": "输入必去景点，获取完整旅行行程！",
+    "maxSpotsReached": "最多只能添加{{max}}个地点。",
+    "resetSpot": "全部重置",
+    "addSpot": "添加地点",
+    "generateItinerary": "生成行程",
+    "spotsReset": "所有地点已重置。",
+    "allSpotsEmpty": "所有地点均为空。正在自动重置。",
+    "spotPlaceholder": "输入地点（如：咖啡馆、景点等）",
+    "clearInput": "清除输入",
+    "selectCategory": "选择旅行类别",
+    "categoryDescription": "您计划什么类型的旅行？",
+    "categoryMultipleDescription": "您对哪些活动感兴趣？（可多选）",
+    "changeCategory": "更改",
+    "confirmCategories": "继续",
+    "selectAtLeastOne": "请至少选择一个类别",
+    "departureCity": "出发城市",
+    "arrivalCity": "抵达城市",
+    "selectCity": "选择城市",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "selectStartDate": "选择开始日期",
+    "selectEndDate": "选择结束日期",
+    "removeSpot": "删除地点",
+    "itineraryResults": "您的旅行行程",
+    "itineraryGenerated": "您的行程已成功生成！",
+    "viewItinerary": "查看您的行程",
+    "freeDay": "自由日 - 无计划活动",
+    "mapView": "地图视图",
+    "mapComingSoon": "地图视图即将推出",
+    "loadingMap": "加载地图中...",
+    "generationError": "生成行程失败。请重试。",
+    "save": "保存",
+    "saved": "已保存",
+    "saveSuccess": "行程保存成功！",
+    "saveError": "保存行程失败。请重试。",
+    "validation": {
+      "startDateRequired": "请选择开始日期",
+      "endDateRequired": "请选择结束日期",
+      "departureCityRequired": "请选择出发城市",
+      "arrivalCityRequired": "请选择抵达城市",
+      "noSpotsEntered": "请至少输入一个地点"
+    },
+    "categories": {
+      "attraction": "旅游景点",
+      "culture": "文化设施",
+      "festival": "节日与活动",
+      "tourCourse": "旅游路线",
+      "leisure": "休闲运动",
+      "accommodation": "住宿",
+      "shopping": "购物",
+      "food": "餐厅"
+    },
+    "remainingItineraries": "剩余行程生成: {{count}}/{{total}}",
+    "rateLimitExceeded": "行程生成已达上限。请在{{minutes}}分钟后再试。",
+    "searchLimitReached": "搜索已达上限",
+    "searchLimitMessage": "请在{{minutes}}分钟后再试",
+    "remainingSearches": "剩余搜索: {{count}}/{{total}}"
+  },
+  "session": {
+    "expireTitle": "会话即将过期",
+    "expireMessage": "您的会话即将过期。请延长以继续使用服务。",
+    "remainingTime": "剩余时间：",
+    "extend": "延长会话（1小时）",
+    "logout": "登出",
+    "extendError": "连接服务器失败。请重试或登出后重新登录。",
+    "retry": "重试",
+    "orLogout": "或登出后重新登录"
+  },
+  "travelGuides": {
+    "title": "旅行指南",
+    "subtitle": "通过我们精选的旅行指南发现韩国的精彩之处",
+    "comingSoon": "即将推出",
+    "preparingMessage": "我们正在准备旅行指南。请稍后再查看。",
+    "searchPlaceholder": "搜索指南、目的地或活动...",
+    "allRegions": "所有地区",
+    "readMore": "阅读更多",
+    "noResults": "未找到符合您条件的指南。请尝试不同的搜索词。"
+  }
+} 

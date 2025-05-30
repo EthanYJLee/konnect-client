@@ -1,0 +1,355 @@
+{
+  "welcome": "Konnect에 오신 것을 환영합니다",
+  "welcomeMessage": "한국 생활에 관한 모든 것을 물어보세요!",
+  "nav": {
+    "home": "홈",
+    "faq": "자주 묻는 질문",
+    "history": "기록",
+    "curation": "큐레이션",
+    "settings": "설정",
+    "login": "로그인",
+    "signup": "회원가입",
+    "menu": "메뉴",
+    "logout": "로그아웃",
+    "chat": "채팅",
+    "userProfile": "사용자 프로필"
+  },
+  "home": {
+    "hero": {
+      "title": "한국 여행을\n더 쉽고 특별하게",
+      "subtitle": "당신만의 여행 스타일에 맞춘 AI 기반 여행 도우미로 잊지 못할 한국 여행을 계획하세요.",
+      "button": "여행 계획 시작하기"
+    },
+    "demo": {
+      "categories": {
+        "attractions": "관광 명소",
+        "restaurants": "맛집",
+        "cultural": "문화 시설"
+      },
+      "generateButton": "일정 생성하기"
+    },
+    "imagePlaceholder": "한국 풍경 이미지",
+    "features": {
+      "title": "Konnect의 주요 기능",
+      "subtitle": "AI 기반 기술로 당신의 한국 여행을 향상시키는 다양한 기능을 제공합니다.",
+      "learnMore": "더 알아보기",
+      "itinerary": {
+        "title": "맞춤형 여행 계획",
+        "description": "당신의 선호도와 일정에 맞춘 개인화된 여행 일정을 손쉽게 생성하세요. AI가 최적의 경로와 추천 장소를 제안합니다."
+      },
+      "localInsights": {
+        "title": "현지인 추천 정보",
+        "description": "관광객에게 잘 알려지지 않은 현지인의 숨겨진 명소와 팁을 발견하세요. 진정한 한국 문화를 경험할 수 있습니다."
+      },
+      "translation": {
+        "title": "언어 지원 서비스",
+        "description": "언어 장벽에 대한 걱정 없이 여행하세요. 메뉴 번역, 기본 회화, 표지판 해석 등을 도와드립니다."
+      },
+      "chatbot": {
+        "title": "AI 여행 도우미",
+        "description": "여행 질문에 대한 즉각적인 답변과 AI 여행 도우미의 맞춤형 추천을 받아보세요. 여행 계획을 돕기 위해 24시간 이용 가능합니다."
+      },
+      "foodGuide": {
+        "title": "맛집 가이드",
+        "description": "한국의 다양한 요리와 현지 맛집을 탐험하세요. 당신의 식이 제한이나 선호도에 맞는 맛집을 추천해 드립니다."
+      }
+    },
+    "howItWorks": {
+      "title": "이용 방법",
+      "subtitle": "간단한 3단계로 완벽한 여행 계획 세우기",
+      "step1": {
+        "title": "목적지 선택",
+        "description": "출발 도시와 도착 도시를 선택하세요"
+      },
+      "step2": {
+        "title": "꼭 방문할 장소 추가",
+        "description": "놓치고 싶지 않은 장소를 알려주세요"
+      },
+      "step3": {
+        "title": "여행 일정 생성",
+        "description": "지도와 함께 완전한 여행 계획을 받아보세요"
+      }
+    },
+    "resultPreview": {
+      "title": "여행 계획 보기",
+      "subtitle": "인터랙티브 지도와 함께 상세한 일별 여행 일정을 탐색하세요",
+      "features": {
+        "title": "스마트 여행 일정 기능",
+        "daily": "일별 구성된 계획",
+        "map": "일별 인터랙티브 지도",
+        "efficient": "최적화된 여행 경로"
+      },
+      "tryNow": "여행 일정 만들기",
+      "demoTitle": "내 여행 일정"
+    },
+    "cta": {
+      "title": "완벽한 한국 모험을 계획할 준비가 되셨나요?",
+      "subtitle": "몇 분 안에 맞춤형 여행 일정을 만들어보세요",
+      "button": "지금 계획 시작하기"
+    }
+  },
+  "chat": {
+    "placeholder": "질문을 입력하세요...",
+    "send": "전송",
+    "thinking": "생각 중",
+    "title": "여행 도우미와 대화하기",
+    "subtitle": "한국 여행에 관한 질문이나 도움이 필요한 사항을 자유롭게 물어보세요.",
+    "remainingRequests": "남은 요청: {{count}}/{{total}}",
+    "rateLimitExceeded": "채팅 요청 한도에 도달했습니다. {{minutes}}분 후에 다시 시도해주세요."
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "categories": {
+      "transportation": "교통",
+      "banking": "은행",
+      "telecom": "통신",
+      "healthcare": "의료",
+      "visa": "비자 및 이민",
+      "housing": "주거"
+    },
+    "transportation": {
+      "q1": "한국에서 대중교통을 어떻게 이용하나요?",
+      "a1": "티머니 카드로 버스와 지하철을 이용할 수 있습니다. 길 찾기는 카카오맵이나 네이버 지도를 사용하세요.",
+      "q2": "티머니 카드는 어떻게 구매하나요?",
+      "a2": "편의점, 지하철역, 온라인에서 티머니 카드를 구매할 수 있습니다. 충전은 모든 편의점과 지하철역에서 가능합니다.",
+      "q3": "한국에서 주로 사용하는 교통 앱은 무엇인가요?",
+      "a3": "카카오맵과 네이버 지도가 가장 인기 있는 길 찾기 앱입니다. 택시는 카카오택시를 주로 이용합니다."
+    },
+    "banking": {
+      "q1": "한국에서 은행 계좌는 어떻게 개설하나요?",
+      "a1": "외국인등록증과 여권을 가지고 은행 지점을 방문하세요. 일부 은행은 추가 서류가 필요할 수 있습니다.",
+      "q2": "외국인에게 친화적인 은행은 어디인가요?",
+      "a2": "KEB 하나은행, 신한은행, 우리은행이 영어 서비스를 제공하며 외국인들 사이에서 인기가 많습니다.",
+      "q3": "해외 송금은 어떻게 하나요?",
+      "a3": "인터넷 뱅킹이나 지점 방문을 통해 송금할 수 있습니다. 일부 은행은 외국인을 위한 특별 해외송금 서비스를 제공합니다."
+    },
+    "telecom": {
+      "q1": "한국 전화번호는 어떻게 받나요?",
+      "a1": "외국인등록증과 여권을 가지고 통신사(SKT, KT, LG U+)를 방문하세요. 선불과 후불 요금제 중 선택할 수 있습니다.",
+      "q2": "한국의 주요 통신사는 어디인가요?",
+      "a2": "SK텔레콤(SKT), KT, LG U+가 3대 통신사입니다. 모두 외국인을 위한 다양한 요금제를 제공합니다.",
+      "q3": "모바일 인터넷은 어떻게 이용하나요?",
+      "a3": "통신사에서 데이터 요금제가 포함된 SIM 카드를 구매하거나 휴대용 와이파이 기기를 구매할 수 있습니다."
+    },
+    "healthcare": {
+      "q1": "한국의 의료 시스템은 어떻게 되나요?",
+      "a1": "한국은 국민건강보험 제도를 운영합니다. 외국인등록증이 있는 외국인은 6개월 체류 후 가입할 수 있습니다.",
+      "q2": "영어를 하는 의사를 어떻게 찾나요?",
+      "a2": "대형 병원에는 국제진료센터가 있습니다. 영어 의료 상담을 위해 1339 상담센터를 이용할 수도 있습니다.",
+      "q3": "응급 상황에서는 어떻게 해야 하나요?",
+      "a3": "응급 상황에서는 119에 전화하세요. 영어로 상담이 가능합니다. 보험증과 중요한 의료 서류를 항상 지참하세요."
+    },
+    "visa": {
+      "q1": "비자를 어떻게 연장하나요?",
+      "a1": "현재 비자가 만료되기 전에 필요한 서류를 가지고 출입국관리사무소를 방문하세요. 비자 종류에 따라 절차가 다릅니다.",
+      "q2": "비자 연장에 필요한 서류는 무엇인가요?",
+      "a2": "일반적으로 여권, 외국인등록증, 신청서, 거주 증명서, 그리고 비자 종류별 특정 서류가 필요합니다.",
+      "q3": "비자 종류는 어떻게 변경하나요?",
+      "a3": "필요한 서류와 함께 출입국관리사무소에 신청서를 제출하세요. 일부 변경은 한국을 떠났다가 다시 들어와야 할 수 있습니다."
+    },
+    "housing": {
+      "q1": "한국에는 어떤 주거 형태가 있나요?",
+      "a1": "오피스텔, 아파트, 빌라, 고시원 등이 일반적입니다. 각각 계약 형태와 보증금 요구사항이 다릅니다.",
+      "q2": "전세와 월세는 무엇인가요?",
+      "a2": "전세는 큰 보증금을 내고 월세 없이 거주하는 방식이고, 월세는 작은 보증금과 월세를 내는 방식입니다. 둘 다 계약이 필요합니다.",
+      "q3": "한국에서 주거지를 어떻게 찾나요?",
+      "a3": "부동산 앱(직방, 다방)을 사용하거나, 부동산 중개소를 방문하거나, 외국인 커뮤니티를 확인할 수 있습니다."
+    }
+  },
+  "history": {
+    "title": "내 활동 기록",
+    "subtitle": "저장한 대화와 생성된 여행 일정을 확인하고 관리하세요.",
+    "conversations": "저장된 대화",
+    "itineraries": "저장된 일정",
+    "allCategories": "모든 카테고리",
+    "empty": "저장된 대화가 없습니다.",
+    "date": "날짜",
+    "spots": "장소 수",
+    "regions": "지역",
+    "actions": "작업",
+    "view": "보기",
+    "delete": "삭제",
+    "noItineraries": "저장된 일정이 없습니다.",
+    "question": "질문",
+    "answer": "답변",
+    "copy": "답변 복사",
+    "report": "오류 신고",
+    "searchPlaceholder": "기록 검색...",
+    "savedOn": "저장일",
+    "viewItinerary": "상세 보기",
+    "deleteItinerary": "삭제",
+    "viewDetails": "자세히 보기"
+  },
+  "settings": {
+    "title": "설정",
+    "language": "언어",
+    "theme": "테마",
+    "notifications": "알림",
+    "enableNotifications": "알림 활성화"
+  },
+  "theme": {
+    "light": "라이트",
+    "dark": "다크"
+  },
+  "toast": {
+    "info": "알림",
+    "success": "성공",
+    "warning": "주의",
+    "error": "오류",
+    "loginSuccess": "로그인되었습니다",
+    "logoutSuccess": "로그아웃되었습니다"
+  },
+  "footer": {
+    "about": "소개",
+    "description": "Konnect는 한국을 방문하거나 한국에서 생활하는 외국인들을 위한 일상 생활 질문과 정보를 제공합니다.",
+    "links": "바로가기",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "contact": "문의하기",
+    "support": "지원",
+    "help": "도움말",
+    "feedback": "피드백 보내기",
+    "report": "문제 신고",
+    "rights": "모든 권리 보유"
+  },
+  "login": {
+    "google": "구글 계정으로 로그인",
+    "apple": "애플 계정으로 로그인",
+    "or": "or",
+    "login": "로그인",
+    "signup": "회원가입",
+    "findId": "아이디 찾기",
+    "findPw": "비밀번호 찾기",
+    "email": "이메일",
+    "password": "비밀번호",
+    "title": "로그인",
+    "subtitle": "계정에 접근하기 위해 로그인 정보를 입력해주세요."
+  },
+  "signup": {
+    "email": "이메일",
+    "customDomain": "직접 입력",
+    "password": "비밀번호",
+    "name": "이름",
+    "confirmPassword": "비밀번호 확인",
+    "checkDuplicate": "중복체크",
+    "title": "회원가입",
+    "subtitle": "서비스 이용을 위해 새 계정을 만들어보세요.",
+    "modal": {
+      "emailTitle": "이메일",
+      "emailInputError": "이메일을 올바르게 입력해주세요.",
+      "emailDuplicateTitle": "이메일 중복",
+      "emailDuplicateBody": "이미 존재하는 이메일입니다.",
+      "emailAvailableTitle": "확인 완료",
+      "emailAvailableBody": "사용 가능한 이메일입니다.",
+      "emailFormatErrorTitle": "이메일 형식 오류",
+      "emailFormatErrorBody": "이메일 형식이 올바르지 않습니다.",
+      "emailCheckErrorTitle": "오류",
+      "emailCheckErrorBody": "이메일 확인 중 오류가 발생했습니다.",
+      "emailInputTitle": "이메일",
+      "emailInputBody": "이메일을 입력해주세요.",
+      "emailCheckTitle": "이메일 중복 확인",
+      "emailCheckBody": "이메일 중복 확인을 먼저 해주세요.",
+      "nameTitle": "이름",
+      "nameBody": "이름을 입력해주세요.",
+      "passwordTitle": "비밀번호",
+      "passwordBody": "비밀번호를 입력해주세요.",
+      "confirmPasswordTitle": "비밀번호 확인",
+      "confirmPasswordBody": "비밀번호 확인을 입력해주세요.",
+      "passwordMismatchTitle": "비밀번호 불일치",
+      "passwordMismatchBody": "비밀번호가 일치하지 않습니다.",
+      "signupSuccessTitle": "회원가입 성공",
+      "signupSuccessBody": "회원가입이 성공적으로 완료되었습니다. 로그인 페이지로 이동합니다."
+    }
+  },
+  "alertModal": {
+    "login": "로그인",
+    "pleaseLogin": "로그인이 필요한 서비스입니다.",
+    "deleteThread": "스레드 삭제",
+    "confirmDeleteThread": "정말로 이 스레드를 삭제하시겠습니까?",
+    "confirmDeleteItinerary": "정말로 이 여행 일정을 삭제하시겠습니까?",
+    "delete": "삭제",
+    "cancel": "취소",
+    "confirm": "확인"
+  },
+  "curation": {
+    "language": "ko",
+    "title": "큐레이션",
+    "subtitle": "방문하고 싶은 장소를 입력하고 여행 일정을 받아보세요!",
+    "maxSpotsReached": "최대 {{max}}개의 장소만 추가할 수 있습니다.",
+    "resetSpot": "모두 초기화",
+    "addSpot": "장소 추가",
+    "generateItinerary": "일정 생성하기",
+    "spotsReset": "모든 장소가 초기화되었습니다.",
+    "allSpotsEmpty": "모든 장소가 비어 있습니다. 자동으로 초기화합니다.",
+    "spotPlaceholder": "장소를 입력하세요 (예: 카페, 명소 등)",
+    "clearInput": "입력 지우기",
+    "selectCategory": "여행 카테고리 선택",
+    "categoryDescription": "어떤 유형의 여행을 계획하고 계신가요?",
+    "categoryMultipleDescription": "어떤 활동에 관심이 있으신가요? (다중 선택 가능)",
+    "changeCategory": "변경",
+    "confirmCategories": "계속하기",
+    "selectAtLeastOne": "최소 하나의 카테고리를 선택해주세요",
+    "departureCity": "출발 도시",
+    "arrivalCity": "도착 도시",
+    "selectCity": "도시 선택",
+    "startDate": "시작일",
+    "endDate": "종료일",
+    "selectStartDate": "시작일 선택",
+    "selectEndDate": "종료일 선택",
+    "removeSpot": "장소 삭제",
+    "itineraryResults": "내 여행 일정",
+    "itineraryGenerated": "여행 일정이 성공적으로 생성되었습니다!",
+    "viewCurationItinerary": "여행 일정 보기",
+    "freeDay": "자유일 - 계획된 활동 없음",
+    "mapView": "지도 보기",
+    "mapComingSoon": "지도 보기 곧 제공 예정",
+    "loadingMap": "지도 로딩 중...",
+    "generationError": "일정 생성에 실패했습니다. 다시 시도해주세요.",
+    "save": "저장",
+    "saved": "저장됨",
+    "saveSuccess": "일정이 성공적으로 저장되었습니다!",
+    "saveError": "일정 저장에 실패했습니다. 다시 시도해주세요.",
+    "validation": {
+      "startDateRequired": "시작일을 선택해주세요",
+      "endDateRequired": "종료일을 선택해주세요",
+      "departureCityRequired": "출발 도시를 선택해주세요",
+      "arrivalCityRequired": "도착 도시를 선택해주세요",
+      "noSpotsEntered": "최소 하나의 장소를 입력해주세요"
+    },
+    "categories": {
+      "attraction": "관광지",
+      "culture": "문화시설",
+      "festival": "축제공연행사",
+      "tourCourse": "여행코스",
+      "leisure": "레포츠",
+      "accommodation": "숙박",
+      "shopping": "쇼핑",
+      "food": "음식점"
+    },
+    "remainingItineraries": "남은 일정 생성: {{count}}/{{total}}",
+    "rateLimitExceeded": "일정 생성 한도에 도달했습니다. {{minutes}}분 후에 다시 시도해주세요.",
+    "searchLimitReached": "검색 한도 도달",
+    "searchLimitMessage": "{{minutes}}분 후에 다시 시도해주세요",
+    "remainingSearches": "남은 검색: {{count}}/{{total}}"
+  },
+  "session": {
+    "expireTitle": "세션 만료 예정",
+    "expireMessage": "세션이 곧 만료됩니다. 계속 이용하시려면 연장하세요.",
+    "remainingTime": "남은 시간: ",
+    "extend": "세션 연장 (1시간)",
+    "logout": "로그아웃",
+    "extendError": "서버 연결에 실패했습니다. 다시 시도하거나 로그아웃 후 재로그인해주세요.",
+    "retry": "재시도",
+    "orLogout": "또는 로그아웃 후 다시 로그인"
+  },
+  "travelGuides": {
+    "title": "여행 가이드",
+    "subtitle": "엄선된 여행 가이드로 한국의 최고를 발견하세요",
+    "comingSoon": "준비 중입니다",
+    "preparingMessage": "여행 가이드를 준비 중입니다. 나중에 다시 확인해 주세요.",
+    "searchPlaceholder": "가이드, 목적지 또는 활동 검색...",
+    "allRegions": "모든 지역",
+    "readMore": "더 읽기",
+    "noResults": "검색 조건과 일치하는 가이드를 찾을 수 없습니다. 다른 검색어를 시도해 보세요."
+  }
+} 

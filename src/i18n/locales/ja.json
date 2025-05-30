@@ -1,0 +1,352 @@
+{
+  "welcome": "Konnectへようこそ",
+  "welcomeMessage": "韓国での生活について何でも質問してください！",
+  "nav": {
+    "home": "ホーム",
+    "faq": "よくある質問",
+    "history": "履歴",
+    "curation": "キュレーション",
+    "settings": "設定",
+    "login": "ログイン",
+    "signup": "新規登録",
+    "menu": "メニュー",
+    "logout": "ログアウト",
+    "chat": "チャット",
+    "userProfile": "ユーザー情報"
+  },
+  "home": {
+    "hero": {
+      "title": "韓国旅行を\nより簡単に、より特別に",
+      "subtitle": "あなたの旅行スタイルに合わせたAI搭載の旅行アシスタントで、忘れられない韓国旅行を計画しましょう。",
+      "button": "旅行計画を始める"
+    },
+    "demo": {
+      "categories": {
+        "attractions": "観光スポット",
+        "restaurants": "レストラン",
+        "cultural": "文化施設"
+      },
+      "generateButton": "日程を生成する"
+    },
+    "imagePlaceholder": "韓国の風景画像",
+    "features": {
+      "title": "Konnectの主な機能",
+      "subtitle": "AI技術を活用して、韓国旅行をより充実させるさまざまな機能を提供します。",
+      "learnMore": "詳細を見る",
+      "itinerary": {
+        "title": "パーソナライズされた旅行計画",
+        "description": "あなたの好みとスケジュールに基づいた個人的な旅行日程を簡単に作成できます。AIが最適なルートと推奨スポットを提案します。"
+      },
+      "localInsights": {
+        "title": "地元の人のおすすめ情報",
+        "description": "観光客にはあまり知られていない地元の隠れた名所やヒントを発見しましょう。本物の韓国文化を体験できます。"
+      },
+      "translation": {
+        "title": "言語サポートサービス",
+        "description": "言語の壁を気にせず旅行しましょう。メニュー翻訳、基本会話、標識解釈などをサポートします。"
+      },
+      "foodGuide": {
+        "title": "グルメガイド",
+        "description": "韓国の多様な料理と地元のレストランを探索しましょう。あなたの食事制限や好みに合ったレストランをおすすめします。"
+      },
+      "chatbot": {
+        "title": "AIトラベルアシスタント",
+        "description": "旅行に関する質問への即時回答やAIトラベルアシスタントからのパーソナライズされたおすすめを入手できます。旅行計画をサポートするために24時間利用可能です。"
+      }
+    },
+    "howItWorks": {
+      "title": "利用方法",
+      "subtitle": "たった3ステップで完璧な旅行計画を立てましょう",
+      "step1": {
+        "title": "目的地を選択",
+        "description": "出発都市と到着都市を選択します"
+      },
+      "step2": {
+        "title": "必見スポットを追加",
+        "description": "訪れたい場所を教えてください"
+      },
+      "step3": {
+        "title": "旅程を生成",
+        "description": "地図付きの完全な旅行計画を取得します"
+      }
+    },
+    "resultPreview": {
+      "title": "旅行プランを確認",
+      "subtitle": "インタラクティブな地図付きで詳細な日々の旅程を探索しましょう",
+      "features": {
+        "title": "スマート旅程機能",
+        "daily": "日別に整理されたプラン",
+        "map": "各日のインタラクティブ地図",
+        "efficient": "最適化された移動ルート"
+      },
+      "tryNow": "旅程を作成する",
+      "demoTitle": "あなたの旅行日程"
+    },
+    "cta": {
+      "title": "完璧な韓国の冒険を計画する準備はできましたか？",
+      "subtitle": "数分であなた専用の旅行日程を作成しましょう",
+      "button": "今すぐ計画を始める"
+    }
+  },
+  "chat": {
+    "placeholder": "ここに質問を入力してください...",
+    "send": "送信",
+    "thinking": "考え中",
+    "title": "旅行アシスタントとチャット",
+    "subtitle": "韓国旅行に関する質問やサポートを自由に依頼してください。",
+    "remainingRequests": "残りリクエスト: {{count}}/{{total}}",
+    "rateLimitExceeded": "チャットリクエスト制限に達しました。{{minutes}}分後に再試行してください。"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "categories": {
+      "transportation": "交通",
+      "banking": "銀行",
+      "telecom": "通信",
+      "healthcare": "医療",
+      "visa": "ビザ・移民",
+      "housing": "住居"
+    },
+    "transportation": {
+      "q1": "韓国で公共交通機関をどのように利用しますか？",
+      "a1": "T-moneyカードでバスと地下鉄を利用できます。ナビゲーションにはカカオマップやネイバーマップを使用してください。",
+      "q2": "T-moneyカードはどのように購入しますか？",
+      "a2": "コンビニ、地下鉄駅、オンラインでT-moneyカードを購入できます。充電はすべてのコンビニと地下鉄駅で可能です。",
+      "q3": "韓国で主に使用される交通アプリは何ですか？",
+      "a3": "カカオマップとネイバーマップが最も人気のあるナビゲーションアプリです。タクシーはカカオタクシーを主に利用します。"
+    },
+    "banking": {
+      "q1": "韓国で銀行口座はどのように開設しますか？",
+      "a1": "外国人登録証とパスポートを持って銀行支店を訪問してください。一部の銀行は追加書類が必要な場合があります。",
+      "q2": "外国人に親切な銀行はどこですか？",
+      "a2": "KEBハナ銀行、新韓銀行、ウリ銀行が英語サービスを提供し、外国人に人気があります。",
+      "q3": "海外送金はどのように行いますか？",
+      "a3": "インターネットバンキングや支店訪問で送金できます。一部の銀行は外国人のための特別な海外送金サービスを提供しています。"
+    },
+    "telecom": {
+      "q1": "韓国の電話番号はどのように取得しますか？",
+      "a1": "外国人登録証とパスポートを持って通信会社（SKT、KT、LG U+）を訪問してください。プリペイドとポストペイドプランから選択できます。",
+      "q2": "韓国の主要な通信会社はどこですか？",
+      "a2": "SKテレコム（SKT）、KT、LG U+が3大通信会社です。すべて外国人向けの様々なプランを提供しています。",
+      "q3": "モバイルインターネットはどのように利用しますか？",
+      "a3": "通信会社からデータプラン付きSIMカードを購入するか、ポータブルWiFi機器を購入できます。"
+    },
+    "healthcare": {
+      "q1": "韓国の医療システムはどのようになっていますか？",
+      "a1": "韓国は国民健康保険制度を運営しています。外国人登録証を持つ外国人は6ヶ月滞在後に加入できます。",
+      "q2": "英語を話す医師はどのように見つけますか？",
+      "a2": "大病院には国際診療センターがあります。英語の医療相談のために1339相談センターを利用することもできます。",
+      "q3": "緊急時にはどうすればよいですか？",
+      "a3": "緊急時は119に電話してください。英語で相談が可能です。保険証と重要な医療書類を常に携帯してください。"
+    },
+    "visa": {
+      "q1": "ビザはどのように延長しますか？",
+      "a1": "現在のビザが期限切れになる前に必要な書類を持って出入国管理事務所を訪問してください。ビザの種類によって手続きが異なります。",
+      "q2": "ビザ延長に必要な書類は何ですか？",
+      "a2": "一般的にパスポート、外国人登録証、申請書、居住証明書、そしてビザ種類別の特定書類が必要です。",
+      "q3": "ビザの種類はどのように変更しますか？",
+      "a3": "必要な書類とともに出入国管理事務所に申請書を提出してください。一部の変更は韓国を離れて再入国する必要がある場合があります。"
+    },
+    "housing": {
+      "q1": "韓国にはどのような住居形態がありますか？",
+      "a1": "オフィステル、アパート、ビラ、コシウォンなどが一般的です。それぞれ契約形態と保証金要件が異なります。",
+      "q2": "チョンセとウォルセとは何ですか？",
+      "a2": "チョンセは大きな保証金を払って月額家賃なしで居住する方式で、ウォルセは小さな保証金と月額家賃を払う方式です。どちらも契約が必要です。",
+      "q3": "韓国で住居はどのように探しますか？",
+      "a3": "不動産アプリ（ジクバン、ダバン）を使用するか、不動産仲介所を訪問するか、外国人コミュニティを確認できます。"
+    }
+  },
+  "history": {
+    "title": "履歴",
+    "subtitle": "保存した会話や作成された旅行日程を確認・管理できます。",
+    "conversations": "保存された会話",
+    "itineraries": "保存された日程",
+    "allCategories": "すべてのカテゴリ",
+    "empty": "保存された会話はありません。",
+    "date": "日付",
+    "spots": "スポット数",
+    "regions": "地域",
+    "actions": "アクション",
+    "view": "表示",
+    "delete": "削除",
+    "noItineraries": "保存された日程はありません。",
+    "question": "質問",
+    "answer": "回答",
+    "copy": "回答をコピー",
+    "report": "エラーを報告",
+    "searchPlaceholder": "履歴を検索...",
+    "savedOn": "保存日",
+    "viewItinerary": "詳細を見る",
+    "deleteItinerary": "削除",
+    "viewDetails": "詳細を見る"
+  },
+  "settings": {
+    "title": "設定",
+    "language": "言語",
+    "theme": "テーマ",
+    "notifications": "通知",
+    "enableNotifications": "通知を有効にする"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク"
+  },
+  "toast": {
+    "info": "お知らせ",
+    "success": "成功",
+    "warning": "警告",
+    "error": "エラー",
+    "loginSuccess": "ログインしました",
+    "logoutSuccess": "ログアウトしました"
+  },
+  "footer": {
+    "about": "概要",
+    "description": "Konnectは韓国を訪問/居住する外国人向けの日常生活の質問と情報を提供します。",
+    "links": "クイックリンク",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
+    "support": "サポート",
+    "help": "ヘルプセンター",
+    "feedback": "フィードバックを送信",
+    "report": "問題を報告",
+    "rights": "全著作権所有"
+  },
+  "login": {
+    "google": "Googleでログイン",
+    "apple": "Appleでログイン",
+    "or": "or",
+    "login": "ログイン",
+    "signup": "新規登録",
+    "findId": "ID検索",
+    "findPw": "パスワード検索",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "title": "ログイン",
+    "subtitle": "アカウントにアクセスするには認証情報を入力してください。"
+  },
+  "signup": {
+    "email": "メールアドレス",
+    "customDomain": "直接入力",
+    "password": "パスワード",
+    "name": "名前",
+    "confirmPassword": "パスワード確認",
+    "checkDuplicate": "重複確認",
+    "title": "新規登録",
+    "subtitle": "サービスを利用するには新しいアカウントを作成してください。",
+    "modal": {
+      "emailTitle": "メールアドレス",
+      "emailInputError": "正しいメールアドレスを入力してください。",
+      "emailDuplicateTitle": "メール重複",
+      "emailDuplicateBody": "このメールアドレスは既に存在します。",
+      "emailAvailableTitle": "利用可能",
+      "emailAvailableBody": "このメールアドレスは利用可能です。",
+      "emailFormatErrorTitle": "メール形式エラー",
+      "emailFormatErrorBody": "メールアドレスの形式が正しくありません。",
+      "emailCheckErrorTitle": "エラー",
+      "emailCheckErrorBody": "メールアドレス確認中にエラーが発生しました。",
+      "emailInputTitle": "メールアドレス",
+      "emailInputBody": "メールアドレスを入力してください。",
+      "emailCheckTitle": "メール重複確認",
+      "emailCheckBody": "まずメール重複確認を行ってください。",
+      "nameTitle": "名前",
+      "nameBody": "名前を入力してください。",
+      "passwordTitle": "パスワード",
+      "passwordBody": "パスワードを入力してください。",
+      "confirmPasswordTitle": "パスワード確認",
+      "confirmPasswordBody": "パスワード確認を入力してください。",
+      "passwordMismatchTitle": "パスワードの不一致",
+      "passwordMismatchBody": "パスワードが一致しません。",
+      "signupSuccessTitle": "登録完了",
+      "signupSuccessBody": "アカウントが正常に作成されました。ログインページにリダイレクトします。"
+    }
+  },
+  "alertModal": {
+    "login": "ログイン",
+    "pleaseLogin": "このサービスを利用するにはログインが必要です。",
+    "deleteThread": "スレッドの削除",
+    "confirmDeleteThread": "このスレッドを削除してもよろしいですか？",
+    "confirmDeleteItinerary": "この旅行日程を削除してもよろしいですか？",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "confirm": "確認"
+  },
+  "curation": {
+    "language": "ja",
+    "title": "キュレーティング",
+    "subtitle": "訪問したい場所を入力して、旅行日程を受け取りましょう！",
+    "maxSpotsReached": "最大{{max}}ヶ所までしか追加できません。",
+    "resetSpot": "すべてリセット",
+    "addSpot": "場所を追加",
+    "generateItinerary": "スケジュール生成",
+    "spotsReset": "すべての場所がリセットされました。",
+    "allSpotsEmpty": "すべての場所が空です。自動的にリセットします。",
+    "spotPlaceholder": "場所を入力してください（例：カフェ、観光スポットなど）",
+    "clearInput": "入力をクリア",
+    "selectCategory": "旅行カテゴリを選択",
+    "categoryDescription": "どのような旅行を計画していますか？",
+    "categoryMultipleDescription": "どのようなアクティビティに興味がありますか？（複数選択可）",
+    "changeCategory": "変更",
+    "confirmCategories": "続ける",
+    "selectAtLeastOne": "少なくとも1つのカテゴリを選択してください",
+    "departureCity": "出発都市",
+    "arrivalCity": "到着都市",
+    "selectCity": "都市を選択",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "selectStartDate": "開始日を選択",
+    "selectEndDate": "終了日を選択",
+    "removeSpot": "場所を削除",
+    "itineraryResults": "あなたの旅行日程",
+    "freeDay": "自由日 - 予定されたアクティビティはありません",
+    "mapView": "地図表示",
+    "mapComingSoon": "地図表示は近日公開予定です",
+    "generationError": "旅程の生成に失敗しました。もう一度お試しください。",
+    "save": "保存",
+    "saved": "保存済み",
+    "saveSuccess": "旅程が正常に保存されました！",
+    "saveError": "旅程の保存に失敗しました。もう一度お試しください。",
+    "validation": {
+      "startDateRequired": "開始日を選択してください",
+      "endDateRequired": "終了日を選択してください",
+      "departureCityRequired": "出発都市を選択してください",
+      "arrivalCityRequired": "到着都市を選択してください",
+      "noSpotsEntered": "少なくとも1つの場所を入力してください"
+    },
+    "categories": {
+      "attraction": "観光地",
+      "culture": "文化施設",
+      "festival": "祭り・イベント",
+      "tourCourse": "旅行コース",
+      "leisure": "レジャースポーツ",
+      "accommodation": "宿泊施設",
+      "shopping": "ショッピング",
+      "food": "レストラン"
+    },
+    "remainingItineraries": "残り旅程作成: {{count}}/{{total}}",
+    "rateLimitExceeded": "旅程生成の制限に達しました。{{minutes}}分後に再試行してください。",
+    "searchLimitReached": "検索制限に達しました",
+    "searchLimitMessage": "{{minutes}}分後に再試行してください",
+    "remainingSearches": "残り検索: {{count}}/{{total}}"
+  },
+  "session": {
+    "expireTitle": "Session Expiring Soon",
+    "expireMessage": "Your session will expire soon. Please extend to continue using the service.",
+    "remainingTime": "Time remaining: ",
+    "extend": "Extend Session (1 hour)",
+    "logout": "Logout",
+    "extendError": "Failed to connect to server. Please try again or log out and log back in.",
+    "retry": "Retry",
+    "orLogout": "or log out and sign in again"
+  },
+  "travelGuides": {
+    "title": "旅行ガイド",
+    "subtitle": "厳選された旅行ガイドで韓国の魅力を発見しましょう",
+    "comingSoon": "準備中",
+    "preparingMessage": "旅行ガイドを準備中です。後ほどご確認ください。",
+    "searchPlaceholder": "ガイド、目的地、またはアクティビティを検索...",
+    "allRegions": "すべての地域",
+    "readMore": "続きを読む",
+    "noResults": "条件に一致するガイドが見つかりませんでした。別の検索語を試してください。"
+  }
+} 
