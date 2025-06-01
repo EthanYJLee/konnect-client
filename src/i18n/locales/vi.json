@@ -353,5 +353,8 @@
     "allRegions": "Tất Cả Khu Vực",
     "readMore": "Đọc Thêm",
     "noResults": "Không tìm thấy hướng dẫn phù hợp với tiêu chí của bạn. Vui lòng thử các từ khóa tìm kiếm khác."
+  },
+  "categoryBadge": {
+    "update": "Cập nhật"
   }
 } 

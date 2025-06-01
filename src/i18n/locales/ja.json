@@ -350,5 +350,8 @@
     "allRegions": "すべての地域",
     "readMore": "続きを読む",
     "noResults": "条件に一致するガイドが見つかりませんでした。別の検索語を試してください。"
+  },
+  "categoryBadge": {
+    "update": "更新"
   }
 } 

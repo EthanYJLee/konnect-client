@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Dropdown from "react-bootstrap/Dropdown";
 import "../styles/Header.scss";
 import { useTheme } from "../contexts/ThemeContext";
-import AlertModal from "../components/AlertModal";
+import AlertModal from "./AlertModal";
 import { useAuth } from "../contexts/AuthContext";
 import { FaUser } from "react-icons/fa";
 import Toast from "./Toast";

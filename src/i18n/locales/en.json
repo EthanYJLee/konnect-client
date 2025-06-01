@@ -353,5 +353,8 @@
     "allRegions": "All Regions",
     "readMore": "Read More",
     "noResults": "No guides found matching your criteria. Please try different search terms."
+  },
+  "categoryBadge": {
+    "update": "Update"
   }
 } 

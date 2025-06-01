@@ -157,7 +157,7 @@ const FAQ = () => {
       ),
       answer: t(
         "faq.technical.a2",
-        "We appreciate your feedback! You can report bugs or suggest features by going to 'Help & Support' in your account menu and selecting 'Report a Bug' or 'Suggest a Feature'. Alternatively, you can email our support team directly at support@konnect-travel.com."
+        "We appreciate your feedback! You can report bugs or suggest features by going to 'Help & Support' in your account menu and selecting 'Report a Bug' or 'Suggest a Feature'. Alternatively, you can email our support team directly at lyj72011648@gmail.com"
       ),
     },
   ];

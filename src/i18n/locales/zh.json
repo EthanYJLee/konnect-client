@@ -353,5 +353,8 @@
     "allRegions": "所有地区",
     "readMore": "阅读更多",
     "noResults": "未找到符合您条件的指南。请尝试不同的搜索词。"
+  },
+  "categoryBadge": {
+    "update": "更新"
   }
 } 

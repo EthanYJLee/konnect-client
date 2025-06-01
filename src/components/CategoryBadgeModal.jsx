@@ -3,15 +3,17 @@ import { Modal, Button } from "react-bootstrap";
 import Badge from "../components/Badge";
 import { useTheme } from "../contexts/ThemeContext";
 import StringToColor from "../utils/StringToColor";
+import { useTranslation } from "react-i18next";
 import axios from "axios";
 
 const CategoryBadgeModal = ({ show, onClose, pair, onCategoryUpdate }) => {
   const token = localStorage.getItem("token");
+  const { t } = useTranslation();
+  const { theme, toggleTheme } = useTheme();
 
   //   useEffect(() => {
   //     console.log(pair.category);
   //   }, []);
-  const { theme, toggleTheme } = useTheme();
   const defaultCategories = [
     "travel",
     "transportation",
@@ -100,7 +102,7 @@ const CategoryBadgeModal = ({ show, onClose, pair, onCategoryUpdate }) => {
       </Modal.Body>
       <Modal.Footer>
         <button className="category-badge-modal-btn" onClick={handleUpdate}>
-          수정
+          {t("categoryBadge.update")}
         </button>
       </Modal.Footer>
     </Modal>
