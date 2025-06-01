@@ -269,7 +269,9 @@
     "confirmDeleteItinerary": "この旅行日程を削除してもよろしいですか？",
     "delete": "削除",
     "cancel": "キャンセル",
-    "confirm": "確認"
+    "confirm": "確認",
+    "loginFailTitle": "ログイン失敗",
+    "loginFailMessage": "メールアドレスまたはパスワードが正しくありません。ご確認の上、再度お試しください。"
   },
   "curation": {
     "language": "ja",

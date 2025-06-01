@@ -168,9 +168,9 @@ const SpotInput = ({ value, onChange, onRemove, showRemoveButton }) => {
       </div>
       {showDropdown && suggestions.length > 0 && (
         <ul className="spot-suggestion-dropdown">
-          {suggestions.map((place) => (
+          {suggestions.map((place, index) => (
             <li 
-              key={place.id} 
+              key={place.id || `${place.name}-${index}`} 
               onClick={() => handleSelect(place)} 
               className={place.isError ? "suggestion-error" : ""}
             >

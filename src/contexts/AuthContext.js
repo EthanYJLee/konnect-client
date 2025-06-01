@@ -27,10 +27,10 @@ export const AuthProvider = ({ children }) => {
   // 컴포넌트 마운트 시 구글 클라이언트 ID 확인
   useEffect(() => {
     const clientId = process.env.REACT_APP_GOOGLE_AUTH_CLIENT_ID;
-    console.log(
-      "AuthContext - Google Client ID:",
-      clientId ? "설정됨" : "설정되지 않음"
-    );
+    // console.log(
+    //   "AuthContext - Google Client ID:",
+    //   clientId ? "설정됨" : "설정되지 않음"
+    // );
   }, []);
 
   const handleLogout = () => {
@@ -46,7 +46,7 @@ export const AuthProvider = ({ children }) => {
       // 토큰 취소(revoke) - 앱에 부여된 권한만 취소
       if (window.google?.accounts?.id && email) {
         window.google.accounts.id.revoke(email, () => {
-          console.log("✅ Google session revoked");
+          // console.log("✅ Google session revoked");
         });
       }
 
@@ -151,16 +151,16 @@ export const AuthProvider = ({ children }) => {
 
       // 만료 5분 전에 경고
       if (delay > fiveMinutes) {
-        console.log(
-          "Setting new warning timer for",
-          new Date(now + delay - fiveMinutes)
-        );
+        // console.log(
+        //   "Setting new warning timer for",
+        //   new Date(now + delay - fiveMinutes)
+        // );
         warningTimeoutRef.current = setTimeout(() => {
           setShowSessionModal(true);
           startCountdown();
         }, delay - fiveMinutes);
 
-        console.log("Setting new logout timer for", new Date(now + delay));
+        // console.log("Setting new logout timer for", new Date(now + delay));
         logoutTimeoutRef.current = setTimeout(() => handleLogout(), delay);
       } else {
         // 이미 만료 5분 이내라면 바로 알림 표시

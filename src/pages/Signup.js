@@ -167,8 +167,8 @@ const Signup = () => {
       return;
     }
 
-    console.log("최종 이메일:", email);
-    console.log("회원가입 요청 보내기...");
+    // console.log("최종 이메일:", email);
+    // console.log("회원가입 요청 보내기...");
     const url = process.env.REACT_APP_WAS_URL;
     axios
       .post(`${url}/api/auth/register`, {
@@ -177,7 +177,7 @@ const Signup = () => {
         password: password,
       })
       .then((response) => {
-        console.log("회원가입 성공:", response.data);
+        // console.log("회원가입 성공:", response.data);
         // 회원가입 성공 모달 표시
         setModalInfo({
           show: true,

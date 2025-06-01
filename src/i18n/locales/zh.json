@@ -269,7 +269,9 @@
     "confirmDeleteItinerary": "确定要删除这个旅行行程吗？",
     "delete": "删除",
     "cancel": "取消",
-    "confirm": "确认"
+    "confirm": "确认",
+    "loginFailTitle": "登录失败",
+    "loginFailMessage": "邮箱或密码不正确。请检查后重试。"
   },
   "curation": {
     "language": "zh",

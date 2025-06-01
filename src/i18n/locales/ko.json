@@ -269,7 +269,9 @@
     "confirmDeleteItinerary": "정말로 이 여행 일정을 삭제하시겠습니까?",
     "delete": "삭제",
     "cancel": "취소",
-    "confirm": "확인"
+    "confirm": "확인",
+    "loginFailTitle": "로그인 실패",
+    "loginFailMessage": "이메일 또는 비밀번호가 올바르지 않습니다. 다시 확인해주세요."
   },
   "curation": {
     "language": "ko",

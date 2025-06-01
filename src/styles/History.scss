@@ -524,6 +524,12 @@
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
+
+    thead {
+      th {
+        color: var(--black-color);
+      }
+    }
     
     th {
       background-color: var(--primary-color);
@@ -546,6 +552,7 @@
     
     tbody tr {
       transition: all 0.2s ease;
+      color: var(--black-color);
       
       &:hover {
         background-color: rgba(var(--primary-color-rgb), 0.05) !important;

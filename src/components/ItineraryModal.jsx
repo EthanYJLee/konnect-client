@@ -60,18 +60,18 @@ const ItineraryModal = ({ isOpen, onClose, itinerary, formatDisplayDate }) => {
     }
     
     // 저장 기능 구현
-    console.log("Save itinerary:", itinerary);
+    // console.log("Save itinerary:", itinerary);
     try {
       const response = await axios.post(`${process.env.REACT_APP_WAS_URL}/api/curation/saveItinerary`, 
         { data: itinerary }, 
         { headers: { Authorization: `Bearer ${token}` } }
       );
-      console.log(response);
+      // console.log(response);
       setIsSaved(true);
       // 성공 메시지를 토스트로 표시
       showToast(t("curation.saveSuccess", "Itinerary saved successfully!"), "success");
     } catch(error) {
-      console.log(error);
+      console.log(error.response.data);
       // 실패 메시지를 토스트로 표시
       showToast(t("curation.saveError", "Failed to save itinerary. Please try again."), "error");
     }

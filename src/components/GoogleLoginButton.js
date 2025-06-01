@@ -1,4 +1,3 @@
-import { useGoogleLogin } from "@react-oauth/google";
 import { useNavigate } from "react-router-dom";
 import "../styles/GoogleLoginButton.scss";
 import { useAuth } from "../contexts/AuthContext";
@@ -7,80 +6,32 @@ import GoogleButton from "react-google-button";
 
 const GoogleLoginButton = () => {
   const navigate = useNavigate();
-  const { handleLogin } = useAuth();
   const { t } = useTranslation();
 
-  // useGoogleLogin 훅을 사용
-  const login = useGoogleLogin({
-    onSuccess: (credentialResponse) => {
-      console.log("Google Login Success via hook:", credentialResponse);
+  // 직접 Google OAuth 리디렉션 구현
+  const handleGoogleLogin = () => {
+    const clientId = process.env.REACT_APP_GOOGLE_AUTH_CLIENT_ID;
+    const redirectUri = `${window.location.origin}/google-callback`;
 
-      // 액세스 토큰으로 사용자 정보 가져오기
-      fetch(
-        `https://www.googleapis.com/oauth2/v1/userinfo?access_token=${credentialResponse.access_token}`,
-        {
-          method: "GET",
-        }
-      )
-        .then((res) => res.json())
-        .then((userInfo) => {
-          console.log("Google User Info:", userInfo);
+    // Google OAuth 2.0 인증 URL 생성
+    const googleAuthUrl = "https://accounts.google.com/o/oauth2/v2/auth";
+    const scope = "email profile openid";
 
-          // 서버에 인증 정보 전송
-          fetch(`${process.env.REACT_APP_WAS_URL}/api/auth/google/token`, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              type: "access_token",
-              email: userInfo.email,
-              name: userInfo.name,
-              picture: userInfo.picture,
-              id: userInfo.id,
-            }),
-          })
-            .then((res) => res.json())
-            .then((data) => {
-              if (data.token) {
-                localStorage.setItem("token", data.token);
-                localStorage.setItem("loginType", "google");
-                localStorage.setItem("email", userInfo.email);
-                localStorage.setItem("userPicture", userInfo.picture);
+    // 전체 인증 URL 생성
+    const fullUrl = `${googleAuthUrl}?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=token&scope=${scope}`;
 
-                // AuthContext의 handleLogin 함수에 사용자 정보 전달
-                handleLogin({
-                  email: userInfo.email,
-                  name: userInfo.name,
-                  picture: userInfo.picture,
-                });
+    // console.log("Google Auth URL:", fullUrl);
 
-                navigate("/");
-              } else {
-                console.error("No token received from server:", data);
-              }
-            })
-            .catch((err) => {
-              console.error("Error during server authentication:", err);
-            });
-        })
-        .catch((err) => {
-          console.error("Error fetching user info:", err);
-        });
-    },
-    onError: (error) => {
-      console.error("Google Login Error:", error);
-    },
-  });
+    // 인증 페이지로 리디렉션
+    window.location.href = fullUrl;
+  };
 
   return (
-    // <div className="google-login-container">
     <div className="google-btn-wrapper">
       <GoogleButton
-        // onClick={login}
         label={t("login.google")}
         type="light"
-        onClick={() => login()}
+        onClick={handleGoogleLogin}
         style={{ width: "100% !important", borderRadius: "9px !important" }}
       />
     </div>

@@ -5,6 +5,7 @@ import "../styles/Login.scss";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
+import AlertModal from "../components/AlertModal";
 
 const Login = () => {
   const { t } = useTranslation();
@@ -12,6 +13,7 @@ const Login = () => {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showLoginFailModal, setShowLoginFailModal] = useState(false);
 
   const { handleLogin } = useAuth();
   // const checkGoogle = () => {
@@ -21,9 +23,9 @@ const Login = () => {
   // };
 
   const handleGeneralLogin = () => {
-    console.log("일반 로그인 진행");
-    console.log("email:", email);
-    console.log("password:", password);
+    // console.log("일반 로그인 진행");
+    // console.log("email:", email);
+    // console.log("password:", password);
     const url = process.env.REACT_APP_WAS_URL;
     axios
       .post(`${url}/api/auth/login`, {
@@ -31,7 +33,7 @@ const Login = () => {
         password: password,
       })
       .then((response) => {
-        console.log("로그인 성공:", response.data);
+        // console.log("로그인 성공:", response.data);
         localStorage.setItem("loginType", "normal");
         localStorage.setItem("token", response.data.token);
         localStorage.setItem("email", response.data.email);
@@ -41,6 +43,7 @@ const Login = () => {
       })
       .catch((error) => {
         console.error("로그인 실패:", error);
+        setShowLoginFailModal(true);
       });
   };
 
@@ -78,6 +81,15 @@ const Login = () => {
           구글?
         </button> */}
       </div>
+
+      {/* 로그인 실패 알림 모달 */}
+      <AlertModal
+        show={showLoginFailModal}
+        onClose={() => setShowLoginFailModal(false)}
+        title={t("alertModal.loginFailTitle")}
+        body={t("alertModal.loginFailMessage")}
+        confirmText={t("alertModal.confirm")}
+      />
     </div>
   );
 };

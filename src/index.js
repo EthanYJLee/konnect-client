@@ -13,7 +13,7 @@ import "./i18n/config";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const googleClientId = process.env.REACT_APP_GOOGLE_AUTH_CLIENT_ID;
 
-console.log("Google Client ID:", googleClientId); // 디버깅용 로그 추가
+// console.log("Google Client ID:", googleClientId); // 디버깅용 로그 추가
 
 root.render(
   // <React.StrictMode>

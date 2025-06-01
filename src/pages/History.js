@@ -34,14 +34,14 @@ const History = () => {
   const token = localStorage.getItem("token");
 
   // Debug logs
-  useEffect(() => {
-    console.log("History component initialized");
-    console.log("Token exists:", !!token);
-    console.log(
-      "REACT_APP_WAS_URL:",
-      process.env.REACT_APP_WAS_URL || "Using fallback: http://localhost:4000"
-    );
-  }, [token]);
+  // useEffect(() => {
+  //   console.log("History component initialized");
+  //   console.log("Token exists:", !!token);
+  //   console.log(
+  //     "REACT_APP_WAS_URL:",
+  //     process.env.REACT_APP_WAS_URL || "Using fallback: http://localhost:4000"
+  //   );
+  // }, [token]);
 
   // 탭 관련 상태
   const [activeTab, setActiveTab] = useState("conversations");
@@ -63,7 +63,7 @@ const History = () => {
   // 탭이 itineraries일 때 렌더링될 때마다 데이터 최신 상태 유지
   useEffect(() => {
     if (activeTab === "itineraries") {
-      console.log("Refreshing itineraries data");
+      // console.log("Refreshing itineraries data");
       fetchItineraries();
     }
   }, [activeTab]);
@@ -81,14 +81,14 @@ const History = () => {
   const fetchPairs = async () => {
     try {
       const url = process.env.REACT_APP_WAS_URL;
-      console.log("Fetching pairs with URL:", url);
-      console.log("Using token:", token ? "Token exists" : "No token");
+      // console.log("Fetching pairs with URL:", url);
+      // console.log("Using token:", token ? "Token exists" : "No token");
 
       const response = await axios.get(`${url}/api/history/fetchPairs`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
-      console.log("Pairs response:", response.data);
+      // console.log("Pairs response:", response.data);
       const sorted = response.data.sort((a, b) => b.pairOrder - a.pairOrder);
       setPairs(sorted);
 
@@ -112,15 +112,15 @@ const History = () => {
   const fetchItineraries = async () => {
     try {
       const url = process.env.REACT_APP_WAS_URL;
-      console.log("Fetching itineraries with URL:", url);
-      console.log("Using token:", token ? "Token exists" : "No token");
+      // console.log("Fetching itineraries with URL:", url);
+      // console.log("Using token:", token ? "Token exists" : "No token");
 
       // 서버에서 활성화된 일정만 가져오기
       const response = await axios.get(`${url}/api/history/fetchItineraries`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
-      console.log("Itineraries response:", response.data);
+      // console.log("Itineraries response:", response.data);
 
       if (Array.isArray(response.data)) {
         // 활성화된 일정만 필터링 (서버에서 이미 필터링되었지만 안전하게 한번 더)
@@ -136,14 +136,14 @@ const History = () => {
         setItineraries(sorted);
         setFilteredItineraries(sorted);
 
-        console.log(`Loaded ${sorted.length} active itineraries`);
+        // console.log(`Loaded ${sorted.length} active itineraries`);
       } else {
         console.error("Invalid response format:", response.data);
         setItineraries([]);
         setFilteredItineraries([]);
       }
     } catch (error) {
-      console.error("일정 데이터 가져오기 실패:", error.message);
+      // console.error("일정 데이터 가져오기 실패:", error.message);
       if (error.response) {
         console.error("Error response:", error.response.data);
         console.error("Status:", error.response.status);
@@ -227,7 +227,7 @@ const History = () => {
   const saveOrderToServer = async (orderedPairs) => {
     try {
       const url = process.env.REACT_APP_WAS_URL;
-      console.log("Saving order with URL:", url);
+      // console.log("Saving order with URL:", url);
 
       await axios.post(
         `${url}/api/history/updateOrder`,
@@ -324,7 +324,7 @@ const History = () => {
     ) {
       try {
         const url = process.env.REACT_APP_WAS_URL;
-        console.log("Deleting itinerary with URL:", url);
+        // console.log("Deleting itinerary with URL:", url);
 
         const response = await axios.post(
           `${url}/api/history/deleteItinerary/${itineraryId}`,
@@ -419,8 +419,12 @@ const History = () => {
               droppableId="history-droppable"
               direction="horizontal"
               type="CARD"
+              isDropDisabled={false}
+              isCombineEnabled={false}
+              ignoreContainerClipping={false}
             >
               {(provided, snapshot) => (
+                // <div innerRef={provided.innerRef} {...provided.droppableProps}>
                 <Row
                   className="history-items-grid g-4"
                   {...provided.droppableProps}
@@ -432,6 +436,9 @@ const History = () => {
                         key={pair._id || `pair-${index}`}
                         draggableId={(pair._id || `pair-${index}`).toString()}
                         index={index}
+                        isDropDisabled={false}
+                        isCombineEnabled={false}
+                        ignoreContainerClipping={false}
                       >
                         {(provided, snapshot) => (
                           <Col
@@ -466,6 +473,7 @@ const History = () => {
                   )}
                   {provided.placeholder}
                 </Row>
+                // </div>
               )}
             </Droppable>
           </DragDropContext>

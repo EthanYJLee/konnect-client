@@ -171,7 +171,7 @@ const Header = () => {
         <Navbar
           expand="lg"
           className={`bg-body-tertiary ${theme}`}
-          Navbar
+          // Navbar
           style={{ justifyContent: "flex" }}
         >
           <Link to="/" className="logo">

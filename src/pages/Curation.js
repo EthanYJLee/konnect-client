@@ -321,18 +321,18 @@ const Curation = () => {
     try {
       setLoading(true);
 
-      console.log("Start Date:", startDate);
-      console.log("End Date:", endDate);
-      console.log("Departure City:", departureCity);
-      console.log("Arrival City:", arrivalCity);
-      console.log("Spots with full information:", spots);
-      console.log("Selected Categories:", selectedCategories);
+      // console.log("Start Date:", startDate);
+      // console.log("End Date:", endDate);
+      // console.log("Departure City:", departureCity);
+      // console.log("Arrival City:", arrivalCity);
+      // console.log("Spots with full information:", spots);
+      // console.log("Selected Categories:", selectedCategories);
 
       const selectedLanguage = localStorage.getItem("language") || "en";
-      console.log("Selected Language:", selectedLanguage);
+      // console.log("Selected Language:", selectedLanguage);
 
       const categoryCodes = selectedCategories.map((cat) => cat.id);
-      console.log("Category Codes:", categoryCodes);
+      // console.log("Category Codes:", categoryCodes);
 
       const response = await axios.post(`${url}/api/curation/generate`, {
         startDate: startDate ? formatDate(startDate) : null,
@@ -344,7 +344,7 @@ const Curation = () => {
         language: selectedLanguage, // Header의 LanguageSelector에서 설정한 언어
       });
 
-      console.log("Response:", response.data);
+      // console.log("Response:", response.data);
       setItinerary(response.data.itinerary.schedule);
 
       // 일정이 생성되면 모달 표시

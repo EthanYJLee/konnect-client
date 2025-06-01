@@ -269,7 +269,9 @@
     "confirmDeleteItinerary": "Bạn có chắc chắn muốn xóa lịch trình du lịch này không?",
     "delete": "Xóa",
     "cancel": "Hủy",
-    "confirm": "Xác nhận"
+    "confirm": "Xác nhận",
+    "loginFailTitle": "Đăng nhập thất bại",
+    "loginFailMessage": "Email hoặc mật khẩu không chính xác. Vui lòng kiểm tra và thử lại."
   },
   "curation": {
     "language": "vi",
